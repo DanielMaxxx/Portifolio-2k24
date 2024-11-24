@@ -1,0 +1,17 @@
+.recovery-page {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f7f4f0;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 0.8;
+  }
+}
